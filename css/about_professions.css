@@ -1,0 +1,127 @@
+* {
+  font-family: Comfortaa;
+  font-size: 22px;
+  background-color: #f0f0f0;
+}
+
+@font-face {
+  font-family: Comfortaa;
+  src: url("../font/Comfortaa-VariableFont_wght.ttf");
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  background-color: transparent;
+  color: black;
+  cursor: pointer;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1100px;
+}
+
+.logo-text {
+  text-align: center;
+  margin: 30px;
+}
+
+.search-container {
+  display: flex;
+  position: relative;
+  width: 700px;
+}
+
+.search-input {
+  width: 700px;
+  padding: 10px 40px 10px 15px;
+  border: 0px solid #ccc;
+  border-radius: 35px 75px 0 35px;
+  font-size: 15px;
+  text-align: center;
+  background-color: white;
+  outline: none;
+}
+
+.search-button {
+  position: absolute;
+  right: -50px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.s-b-img {
+  width: 34px;
+}
+
+.video-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.content {
+  width: 400px;
+  margin: 20px;
+}
+
+.video-img {
+  width: 100%;
+  border-radius: 38px;
+  transition: 0.3s;
+}
+
+.video-img:hover {
+  box-shadow: 0 4px 4px 0px gray;
+  transform: translate(0px, -4px);
+}
+
+.content-name {
+  text-align: center;
+}
+
+.content-name > a {
+  font-size: 17px;
+}
+
+/* footer */
+footer {
+  height: 80px;
+}
+
+.bottom-text {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.google-t {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
+
+.motto {
+  margin-bottom: 0;
+  font-size: 13px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #00000049;
+}
+
+.title_mini {
+  text-align: center;
+  margin: 0;
+  font-size: 13px;
+  opacity: 0.2;
+}

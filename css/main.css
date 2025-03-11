@@ -1,45 +1,61 @@
+* {
+  font-family: Comfortaa;
+  font-size: 22px;
+}
+
+@font-face {
+  font-family: Comfortaa;
+  src: url("../font/Comfortaa-VariableFont_wght.ttf");
+}
+
 body {
-    background-color: #E3F2FD;
+  background-color: #e3f2fd;
+  height: 100vh;
 }
-section{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 1vh;
-}
-
-.title_mini{
-    display: flex;
-    font-size: 13px;
-    justify-content: end;
-    opacity: 0.2;
-
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 1vh;
 }
 
-.logo{
-    padding-bottom: 20px;
-    height: 15vh;
+.title_mini {
+  display: flex;
+  font-size: 13px;
+  justify-content: end;
+  opacity: 0.2;
 }
 
-.main_img{
-    height: 60vh;
+.logo {
+  margin-bottom: 2vh;
+  height: 16vh;
 }
 
-.motto{
-    font-size: 16px;
-    text-transform: uppercase;
-    color: #00000049;
+.main_img {
+  height: 55vh;
 }
 
-.button{ 
-    background-color: #86ABB1;
-    border: none;
-    color: black;
-    padding: 10px 80px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 25px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 30px;
+.motto {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #00000049;
+}
+
+.button {
+  background-color: #86abb1;
+  border: none;
+  color: black;
+  padding: 2vh 80px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  margin: 0vh 5px;
+  cursor: pointer;
+  border-radius: 30px;
+  transition: 0.1s;
+}
+
+.button:hover {
+  box-shadow: 0 4px 4px 0px gray;
+  transform: translate(0px, -4px);
 }
