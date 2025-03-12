@@ -27,6 +27,13 @@ a {
   right: 0;
 }
 
+/* .home {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 80px;
+} */
+
 .content {
   padding-top: 20px;
   display: flex;

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Search</h1>
+    <input type="text" id="searchInput" />
+    <ul id="list">
+      <li class="class">Apple</li>
+      <li class="class">Banana</li>
+      <li>Cherry</li>
+      <li>Date</li>
+      <li>Fig</li>
+      <li>Grape</li>
+      <li>Lemon</li>
+      <li>Lime</li>
+      <li>Mango</li>
+      <li>Orange</li>
+    </ul>
+
+    <script>
+      const searchInput = document.getElementById("searchInput");
+      const list = document.getElementById("list");
+      const items = list.getElementsByClassName("class");
+
+      searchInput.addEventListener("input", function () {
+        const searchTerm = searchInput.value.toLowerCase();
+
+        for (let i = 0; i < items.length; i++) {
+          const itemText = items[i].textContent.toLowerCase();
+          if (itemText.includes(searchTerm)) {
+            items[i].style.display = "block";
+          } else {
+            items[i].style.display = "none";
+          }
+        }
+      });
+    </script>
+  </body>
+</html>
