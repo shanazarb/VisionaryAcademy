@@ -1,0 +1,88 @@
+* {
+  font-family: Comfortaa;
+  font-size: 22px;
+  background-color: #f0f0f0;
+  margin: 0px;
+}
+
+@font-face {
+  font-family: Comfortaa;
+  src: url("../font/Comfortaa-VariableFont_wght.ttf");
+}
+
+body {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  background-color: transparent;
+  color: black;
+  cursor: pointer;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1100px;
+}
+
+.logo-text {
+  text-align: center;
+  padding: 30px;
+}
+
+.home {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 80px;
+}
+
+.page-header {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.page-header span {
+  background-color: #d9d9d9;
+  border-top: solid 2px black;
+  border-bottom: solid 2px black;
+  padding: 0 10px;
+}
+
+.question {
+  margin: 50px;
+}
+
+/* footer */
+footer {
+  position: absolute;
+  bottom: 10px;
+  padding-top: 10px;
+  right: 0;
+  left: 0;
+}
+
+.google-t {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
+
+.motto {
+  margin-bottom: 0;
+  font-size: 13px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #00000049;
+}
+
+.title_mini {
+  text-align: center;
+  margin: 0;
+  font-size: 13px;
+  opacity: 0.2;
+}

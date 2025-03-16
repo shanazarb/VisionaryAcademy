@@ -1,0 +1,149 @@
+* {
+  font-family: Comfortaa;
+  font-size: 22px;
+  background-color: #f0f0f0;
+  margin: 0px;
+  padding: 0;
+}
+
+@font-face {
+  font-family: Comfortaa;
+  src: url("../font/Comfortaa-VariableFont_wght.ttf");
+}
+
+body {
+  /* display: flex;
+      flex-direction: column;
+      align-items: center; */
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+a {
+  text-decoration: none;
+  background-color: transparent;
+  color: black;
+  cursor: pointer;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1100px;
+}
+
+.logo-text {
+  text-align: center;
+  padding: 30px;
+}
+
+.home {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 80px;
+}
+
+.page-header {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.page-header span {
+  background-color: #d9d9d9;
+  border-top: solid 2px black;
+  border-bottom: solid 2px black;
+  padding: 5px 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.result-header {
+  margin: 50px 50px 30px 50px;
+}
+
+.result-header h1 {
+  font-size: 30px;
+}
+
+.result {
+  position: relative;
+}
+
+.result-name {
+  background: linear-gradient(-108deg, #b606c0, #2e6aef);
+  padding: 10px 10px;
+  width: 140px;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 30px;
+  vertical-align: middle;
+  color: white;
+  cursor: pointer;
+}
+
+.result-description {
+  display: none;
+  position: absolute;
+  max-width: 140px;
+  bottom: -33px;
+  right: 0;
+  padding: 5px 10px;
+  background-color: #d9d9d9;
+  border-radius: 0 20px 20px 30px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.professions-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1000px;
+}
+
+.profession {
+  width: 250px;
+  border-radius: 30px;
+  box-shadow: 0 4px 4px 0px gray;
+  margin: 20px;
+  padding: 5px;
+  text-align: center;
+  background-color: white;
+  cursor: pointer;
+}
+
+/* footer */
+footer {
+  position: absolute;
+  bottom: 10px;
+  padding-top: 10px;
+  right: 0;
+  left: 0;
+}
+
+.google-t {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
+
+.motto {
+  margin-bottom: 0;
+  font-size: 13px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #00000049;
+}
+
+.title_mini {
+  text-align: center;
+  margin: 0;
+  font-size: 13px;
+  opacity: 0.2;
+}
