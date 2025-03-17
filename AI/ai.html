@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI</title>
+    <link rel="stylesheet" href="../css/ai-main.css" />
+    <script src="../js/ai-main.js"></script>
+  </head>
+  <body class="container">
+    <a href="../mbti.html">
+      <div class="mbti">
+        <p>MBTI test</p>
+      </div>
+    </a>
+    <div class="logo-text">
+      <a href="./main.html">
+        <img src="../images/logo-text.png" alt="" />
+      </a>
+    </div>
+    <div class="home-icon">
+      <a href="../menu.html">
+        <img src="../images/home.png" alt="" class="home" />
+      </a>
+    </div>
+    <div class="page-header">
+      <span>What job suits you according to MBTI</span>
+    </div>
+    <section class="main">
+      <div class="ai-img">
+        <img src="../images/Ai.png" alt="" class="ai-img" />
+      </div>
+      <div class="input-area">
+        <input id="input" type="text" class="prompt" />
+        <button id="startStopButton" onclick="startConverting()">
+          <img src="../images/voice.png" alt="voice" class="voice" />
+        </button>
+        <button>
+          <img src="../images/search.png" alt="search" class="search" />
+        </button>
+      </div>
+      <div class="two-d">
+        <div class="help" id="helpButton" onclick="toggleHelp()">
+          <p>help</p>
+        </div>
+        <!-- <a href="./results.html"> -->
+        <div class="help" onclick="getAIResponse(); hideHelp()">
+          <p>see result</p>
+        </div>
+        <!-- </a> -->
+      </div>
+      <div class="help-discussion">
+        <p>
+          You can write (say) about: <br />*about character and habits - for
+          example: “I like to work in a team, but I value personal space”.
+          <br />*about the way of making decisions - “I am guided bu intuition
+          rather than facts”. <br />*about favourite activities - “I like
+          helping people”. <br />*about work style - “I like stability”.
+          <br />*about communication - “I easily find a common language with
+          people”. <br />
+          *about reaction to stress - “I keep my cool in difficult situations”.
+        </p>
+      </div>
+      <div class="output">
+        <p id="output">Please enter your interests.</p>
+      </div>
+    </section>
+
+    <footer>
+      <div class="bottom-text">
+        <p class="motto">Your future is here</p>
+        <p class="title_mini">VisionaryAcademics 2025</p>
+      </div>
+      <span>
+        <a href="#"
+          ><img
+            class="google-t"
+            src="../images/google-translate.png"
+            alt="google-translate"
+            width="70px"
+        /></a>
+      </span>
+    </footer>
+    <script></script>
+  </body>
+</html>

@@ -6,19 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Visionary Academics</title>
     <link rel="stylesheet" href="./css/menu.css" />
+    <script src="./js/menu.js"></script>
   </head>
   <body>
-    <a href=""
-      ><img
-        class="profile-icon"
-        src="./images/profile-icon.png"
-        alt="profile-icon"
-    /></a>
-    <!-- <div>
-      <a href="./menu.html">
-        <img src="./images/home.png" alt="" class="home" />
-      </a>
-    </div> -->
+    <div class="profile-icon">
+      <a href="./register.html"
+        ><img src="./images/profile-icon.png" alt="profile-icon" width="140px;"
+      /></a>
+      <span class="profile-description">profile</span>
+    </div>
+    <!-- <div class="element" id="hoverElement">Hover over me</div>
+    <div class="description" id="description">This is a description.</div> -->
     <main class="container content">
       <div class="content-left">
         <a href="./main.html"
@@ -27,30 +25,38 @@
         <img class="left-img" src="./images/menu-pic.jpg" alt="" />
       </div>
       <div class="content-right">
-        <div>
-          <a href="./about_professions.html"> about professions </a>
+        <div class="first-option">
+          <a href="./about_professions.html"><p>About professions</p> </a>
+          <span class="first-option-description">find out about your job</span>
         </div>
-        <div>
-          <a href="./universities.html">universities</a>
+        <div class="second-option">
+          <a href="./universities.html"><p>Universities</p></a>
+          <span class="second-option-description"
+            >information about universities</span
+          >
         </div>
-        <div>
-          <a href="#">tests</a>
+        <div class="third-option">
+          <a href="./AI/ai.html"><p>Tests</p></a>
+          <span class="third-option-description"
+            >what profession is suits you according to MBTI (with AI)</span
+          >
         </div>
       </div>
     </main>
     <footer>
-      <div class="bottom-text">
+      <span class="bottom-text">
         <p class="motto">Your future is here</p>
         <p class="title_mini">VisionaryAcademics 2025</p>
-      </div>
+      </span>
       <span>
         <a href="#" class="google-t-pos"
           ><img
             class="google-t"
             src="./images/google-translate.png"
             alt="google-translate"
-            width="70px"
-        /></a>
+            width="80px"
+          /><span class="google-t-description">translate</span></a
+        >
       </span>
     </footer>
   </body>
