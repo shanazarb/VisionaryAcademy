@@ -1,9 +1,22 @@
+var result = document.querySelector(".output");
 function toggleHelp() {
   var discussion = document.querySelector(".help-discussion");
   discussion.style.display =
     discussion.style.display === "none" || discussion.style.display === ""
       ? "block"
       : "none";
+  result.style.display =
+    discussion.style.display === "none" || discussion.style.display === ""
+      ? "block"
+      : "none";
+}
+
+function hideHelp() {
+  var help_d = document.querySelector(".help-discussion");
+  help_d.style.display = "none";
+  if (helpBox) {
+    result.style.display = "none";
+  }
 }
 
 // Speech-to-text
